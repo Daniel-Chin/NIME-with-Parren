@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#body-div {
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+}
+#the-span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 10vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  user-select: none;
+  /* border: 1px solid black; */
+}

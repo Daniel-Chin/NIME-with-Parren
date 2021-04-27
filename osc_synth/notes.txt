@@ -1,0 +1,47 @@
+3.3V arduino
+    but against spec for the IC
+plastic gloves
+    not necessary if elements spaced out
+
+buy:
+    breadboard  * 4
+    M-M * 3 sheets
+    0.1uF * >10
+    1nF * >10
+    1M Ohm * >>13
+    push button
+    audio F, 1/4 inch
+    10K Ohm * >>2
+
+todo:
+    USB 2 jumpers
+    audio M to jumpers (long!)
+        better: audio F to jumpers, short
+
+math
+    1           4           8
+    9/8=1.125   9/2=4.5     9
+    5/4=1.25    5           10
+    3/2=1.5     6           12
+    5/3=1.66    20/3=6.66   40/3=13.33
+    :18 (?)     :11 (?)     16      (NOT always on!)
+
+"Accelerondo!!!"
+
+unexpected note: D sharp
+    perfect for megalovania
+finger dents from playing instrument
+
+Composition
+    0:00 Jiani Solo
+    0:10 Eden solo
+    0:20 Alex solo
+    0:30 Daniel solo
+    0:40 steady beats
+    0:45 Ducking
+    0:50 Everyone joins
+    1:05 Daniel says: "Accelerondo!!!"
+    1:10 faster beats and ducking
+    1:30 pulls LDR out
+
+unplug power: alex bass
