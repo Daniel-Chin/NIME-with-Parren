@@ -124,8 +124,9 @@ def onAudioIn(in_data, sample_count, *_):
         # buffer[cursor] = buffer[cursor] * .8 + page * .2
 
         profiler.gonna('norm')
-        normalized = buffer[cursor] / epoch
-        # normalized = buffer[cursor] / epoch ** 0.5  # THIS IS WRONG. LINEAR IS CORRECT
+        # normalized = buffer[cursor] / epoch
+        normalized = buffer[cursor] / epoch ** 0.5  # THIS IS WRONG. LINEAR IS CORRECT
+        # this mistake is some how desirable. distortion is associated with noise. 
         # normalized = buffer[cursor]
 
         normalized = np.rint(normalized).astype(DTYPE_IO[0])

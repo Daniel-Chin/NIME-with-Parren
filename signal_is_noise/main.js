@@ -20,7 +20,7 @@ const TEXT = [
 let stop = false;
 let cursor = 0;
 let text_i = 0;
-let _zoomy = 0.05;
+let _zoomy = 0.02;
 let mode = 0;
 let acc = 0;
 
