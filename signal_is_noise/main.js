@@ -26,7 +26,7 @@ let acc = 0;
 
 function setup() {
   createCanvas(WIDTH, HEIGHT + TOP);
-  background(100);
+  background(128);
   noStroke();
   frameRate(10);
 }
